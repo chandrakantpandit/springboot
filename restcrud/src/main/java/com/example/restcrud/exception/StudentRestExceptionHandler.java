@@ -18,7 +18,7 @@ public class StudentRestExceptionHandler {
     }
 
     @ExceptionHandler
-    public ResponseEntity<StudentErrorResponse> handleExcepiton(Exception exc) {
+    public ResponseEntity<StudentErrorResponse> handleException(Exception exc) {
         StudentErrorResponse res = new StudentErrorResponse();
         res.setStatus(HttpStatus.BAD_REQUEST.value());
         res.setMessage(exc.getMessage());
