@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RestcrudApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(RestcrudApplication.class, args);
 	}
 
